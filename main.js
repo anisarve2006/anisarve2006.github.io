@@ -98,14 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // 4. Resume Modal Trigger
-  const downloadResumeBtns = document.querySelectorAll('.js-open-resume-modal');
-  downloadResumeBtns.forEach((btn) => {
-    btn.addEventListener('click', (e) => {
-      e.preventDefault();
-      openModal('resumeModal');
-    });
-  });
+
 
   // 5. Contact Modal Trigger
   const contactBtns = document.querySelectorAll('.js-open-contact-modal');
