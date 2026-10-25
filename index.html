@@ -1,0 +1,2473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anirudh Sarve — AI/ML Engineer & Systems Builder</title>
+  <meta name="description"
+    content="Personal portfolio of Anirudh Sarve — Computer Engineering Student, AI/ML Enthusiast, and Systems Builder. Specializing in Deep Learning, Computer Vision, and Distributed Systems.">
+  <meta name="author" content="Anirudh Sarve">
+  <meta property="og:title" content="Anirudh Sarve — Portfolio">
+  <meta property="og:description"
+    content="I build practical solutions using AI, software and design. Currently exploring how technology can solve real-world problems.">
+  <meta property="og:image" content="assets/anirudh-sarve.png">
+
+  <!-- Google Fonts: Space Grotesk (Display), Inter (Sans), Caveat (Handwriting) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Film Grain Overlay -->
+  <div class="grain-overlay" aria-hidden="true"></div>
+
+  <!-- Ambient Orange Glows -->
+  <div class="ambient-glow-wrapper" aria-hidden="true">
+    <div class="ambient-glow-hero"></div>
+    <div class="ambient-glow-hero-secondary"></div>
+    <div class="ambient-glow-mid-right"></div>
+    <div class="ambient-glow-skills-left"></div>
+    <div class="ambient-glow-bottom-right"></div>
+  </div>
+
+  <!-- ==========================================================================
+       SITE HEADER / NAVIGATION
+       ========================================================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      <a href="#home" class="brand-wordmark" aria-label="Anirudh Sarve Home">
+        ANIRUDH SARVE <span class="brand-dot"></span>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Let's Talk CTA -->
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <button type="button" class="nav-cta-btn js-open-contact-modal" aria-label="Open contact form">
+          <span>Let's Talk</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </button>
+
+        <button type="button" class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle navigation menu"
+          aria-expanded="false">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <ul class="mobile-nav-links">
+      <li><a href="#home" class="mobile-nav-link active">Home</a></li>
+      <li><a href="#about" class="mobile-nav-link">About</a></li>
+      <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+      <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+      <li><a href="#experience" class="mobile-nav-link">Experience</a></li>
+      <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+    </ul>
+    <button type="button" class="btn-primary js-open-contact-modal" style="width: 100%; justify-content: center;">
+      <span>Let's Talk</span>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+        <line x1="5" y1="12" x2="19" y2="12"></line>
+        <polyline points="12 5 19 12 12 19"></polyline>
+      </svg>
+    </button>
+  </div>
+
+  <main>
+    <!-- ==========================================================================
+         HERO SECTION
+         ========================================================================== -->
+    <section class="hero-section" id="home">
+      <div class="container">
+        <div class="hero-grid">
+
+          <!-- Text Column (55%) -->
+          <div class="hero-content">
+            <div class="hero-eyebrow">
+              <svg width="10" height="10" viewBox="0 0 24 24">
+                <path d="M5 3l14 9-14 9V3z" />
+              </svg>
+              <span>HI, I'M</span>
+            </div>
+
+            <h1 class="hero-title">
+              ANIRUDH
+              <span class="name-highlight">SARVE</span>
+            </h1>
+
+            <p class="hero-subtitle">
+              Computer Engineering Student | AI/ML Enthusiast | Builder
+            </p>
+
+            <p class="hero-description">
+              I build practical solutions using AI, software and design. Currently exploring how technology can solve
+              real-world problems and create meaningful impact.
+            </p>
+
+            <div class="hero-cta-group">
+              <a href="#projects" class="btn-primary">
+                <span>View My Work</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+
+              <button type="button" class="btn-secondary js-open-resume-modal">
+                <span>Download Resume</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+              </button>
+            </div>
+
+            <!-- Social Links Strip -->
+            <div class="hero-socials">
+              <a href="https://www.linkedin.com/in/anirudh-sarve-2130a724a" target="_blank" rel="noopener noreferrer"
+                class="social-icon-link" aria-label="LinkedIn Profile">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </a>
+
+              <a href="https://github.com/anisarve2006" target="_blank" rel="noopener noreferrer"
+                class="social-icon-link" aria-label="GitHub Profile">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                  </path>
+                </svg>
+              </a>
+
+              <a href="https://x.com/SarveAnirudh" target="_blank" rel="noopener noreferrer" class="social-icon-link"
+                aria-label="X Profile">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                </svg>
+              </a>
+
+              <a href="mailto:anisarve2006@gmail.com" class="social-icon-link" aria-label="Send Email">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Portrait & Floating Visual Column (45%) -->
+          <div class="hero-visual">
+            <div class="portrait-glow-ring" aria-hidden="true"></div>
+            <div class="hero-grid-pattern" aria-hidden="true"></div>
+
+            <div class="portrait-frame">
+              <img src="assets/anirudh-sarve.png" alt="Anirudh Sarve Portrait" class="portrait-img" width="640"
+                height="524">
+            </div>
+
+            <!-- Handwritten Annotation -->
+            <div class="handwritten-note" aria-hidden="true">
+              <span class="handwritten-text">Turning ideas into real-world products</span>
+              <svg class="handwritten-arrow" viewBox="0 0 60 60" fill="none" stroke="#E2A27A" stroke-width="2.2"
+                stroke-linecap="round">
+                <path d="M48 10 C32 15, 18 28, 14 42 C12 47, 10 50, 10 52 M10 52 L19 46 M10 52 L7 42" />
+              </svg>
+            </div>
+
+            <!-- Floating Status Card -->
+            <div class="floating-status-card">
+              <div class="status-header">
+                <div class="status-label">
+                  <span class="status-dot"></span>
+                  <span>Currently Working On</span>
+                </div>
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--text-muted)" stroke-width="2">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </div>
+              <div class="status-value">
+                AI powered products and real-world solutions
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         STATS PROOF STRIP
+         ========================================================================== -->
+    <section class="stats-section">
+      <div class="container">
+        <div class="stats-panel">
+
+          <div class="stat-cell">
+            <svg class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+              <polyline points="2 17 12 22 22 17"></polyline>
+              <polyline points="2 12 12 17 22 12"></polyline>
+            </svg>
+            <div class="stat-number">6+</div>
+            <div class="stat-label">Projects Completed</div>
+          </div>
+
+          <div class="stat-cell">
+            <svg class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+            </svg>
+            <div class="stat-number">2+</div>
+            <div class="stat-label">Years of Experience</div>
+          </div>
+
+          <div class="stat-cell">
+            <svg class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+              </polygon>
+            </svg>
+            <div class="stat-number">99%</div>
+            <div class="stat-label">Positive Feedback</div>
+          </div>
+
+          <div class="stat-cell">
+            <svg class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+            </svg>
+            <div class="stat-number">1000+</div>
+            <div class="stat-label">Ideas to Build</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         FEATURED PROJECTS SECTION
+         ========================================================================== -->
+    <section class="section" id="projects">
+      <div class="container">
+
+        <div class="section-header-row">
+          <div>
+            <div class="section-eyebrow">
+              <span>FEATURED WORK</span>
+              <svg width="10" height="10" viewBox="0 0 24 24">
+                <path d="M5 3l14 9-14 9V3z" fill="var(--primary-orange)" />
+              </svg>
+            </div>
+            <h2 class="section-heading">
+              Projects that solve <span class="highlight">real problems</span>
+            </h2>
+            <p class="section-subtext">
+              A collection of projects focused on AI, web development and innovative solutions.
+            </p>
+          </div>
+
+          <button type="button" class="btn-outline-pill" id="viewAllProjectsBtn">
+            <span>View All Projects</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Mobile Projects Controller (Swipe Indicator + View Mode Tabs: Cards vs List) -->
+        <div class="mobile-projects-controller" aria-label="Mobile project view switcher">
+          <div class="mobile-track-indicator">
+            <span class="swipe-pulse-dot" aria-hidden="true"></span>
+            <span class="swipe-indicator-text" id="projectTrackStatus">1 of 6 &bull; Swipe cards &rarr;</span>
+          </div>
+          <div class="mobile-view-tabs" role="tablist" aria-label="Projects layout mode">
+            <button type="button" class="view-tab-btn active" data-view="cards" role="tab" aria-selected="true" aria-label="Cards view mode">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4">
+                <rect x="3" y="3" width="7" height="7"></rect>
+                <rect x="14" y="3" width="7" height="7"></rect>
+                <rect x="14" y="14" width="7" height="7"></rect>
+                <rect x="3" y="14" width="7" height="7"></rect>
+              </svg>
+              <span>Cards</span>
+            </button>
+            <button type="button" class="view-tab-btn" data-view="list" role="tab" aria-selected="false" aria-label="Compact list view mode">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4">
+                <line x1="8" y1="6" x2="21" y2="6"></line>
+                <line x1="8" y1="12" x2="21" y2="12"></line>
+                <line x1="8" y1="18" x2="21" y2="18"></line>
+                <circle cx="4" cy="6" r="1.5" fill="currentColor"></circle>
+                <circle cx="4" cy="12" r="1.5" fill="currentColor"></circle>
+                <circle cx="4" cy="18" r="1.5" fill="currentColor"></circle>
+              </svg>
+              <span>List</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid">
+
+          <!-- Project 1: NAViGO -->
+          <article class="project-card" data-project="navigo" tabindex="0" role="button"
+            aria-label="View NAViGO Project details">
+            <div class="project-image-wrap">
+              <img src="assets/navigo.png" alt="NAViGO Autonomous Driving UI" loading="lazy">
+            </div>
+
+            <div class="project-title-row">
+              <h3 class="project-title">NAViGO</h3>
+              <div class="project-arrow">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </div>
+            </div>
+
+            <div class="project-subtitle">Intelligent Navigation Engine</div>
+            <p class="project-description">
+              Computer vision based navigation system for autonomous vehicles with real-time obstacle detection.
+            </p>
+
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">OpenCV</span>
+              <span class="project-tag">AI/ML</span>
+            </div>
+          </article>
+
+          <!-- Project 2: ProtoLink -->
+          <article class="project-card" data-project="protolink" tabindex="0" role="button"
+            aria-label="View ProtoLink Project details">
+            <div class="project-image-wrap">
+              <img src="assets/protolink.png" alt="ProtoLink Network Protocol Telemetry" loading="lazy">
+            </div>
+
+            <div class="project-title-row">
+              <h3 class="project-title">ProtoLink</h3>
+              <div class="project-arrow">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </div>
+            </div>
+
+            <div class="project-subtitle">Custom Network Protocol Lab</div>
+            <p class="project-description">
+              A custom TCP/IP protocol implementation to visualize packet transmission and acknowledgments.
+            </p>
+
+            <div class="project-tags">
+              <span class="project-tag">C++</span>
+              <span class="project-tag">Networking</span>
+              <span class="project-tag">Simulation</span>
+            </div>
+          </article>
+
+          <!-- Project 3: Virtual Try-On -->
+          <article class="project-card" data-project="virtual_tryon" tabindex="0" role="button"
+            aria-label="View Virtual Try-On Project details">
+            <div class="project-image-wrap">
+              <img src="assets/virtual_tryon.png" alt="Virtual Try-On Fashion Catalog UI" loading="lazy">
+            </div>
+
+            <div class="project-title-row">
+              <h3 class="project-title">Virtual Try-On</h3>
+              <div class="project-arrow">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </div>
+            </div>
+
+            <div class="project-subtitle">AI Powered Fashion Experience</div>
+            <p class="project-description">
+              Virtual try-on system for e-commerce using deep learning and computer vision.
+            </p>
+
+            <div class="project-tags">
+              <span class="project-tag">AI/ML</span>
+              <span class="project-tag">Computer Vision</span>
+              <span class="project-tag">Web</span>
+            </div>
+          </article>
+
+          <!-- Project 4: Neural-Inertial Dead-Reckoning -->
+          <article class="project-card" data-project="eskf_inertial" tabindex="0" role="button"
+            aria-label="View Neural-Inertial Dead-Reckoning details">
+            <div class="project-image-wrap">
+              <img src="assets/eskf_inertial.jpg" alt="Neural-Inertial State Estimator Subterranean Trajectory HUD" loading="lazy">
+            </div>
+
+            <div class="project-title-row">
+              <h3 class="project-title">Neural-Inertial Dead-Reckoning</h3>
+              <div class="project-arrow">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </div>
+            </div>
+
+            <div class="project-subtitle">15-State ESKF Sensor Fusion</div>
+            <p class="project-description">
+              Continuous-time sensor fusion fusing 6-DoF IMU and odometry with Ceres non-linear optimization for GNSS-denied robotics.
+            </p>
+
+            <div class="project-tags">
+              <span class="project-tag">C++20</span>
+              <span class="project-tag">ROS2 Humble</span>
+              <span class="project-tag">Sensor Fusion</span>
+            </div>
+          </article>
+
+          <!-- Project 5: Multimodal Optical-SAR Fusion -->
+          <article class="project-card" data-project="optical_sar" tabindex="0" role="button"
+            aria-label="View Multimodal Optical-SAR Fusion details">
+            <div class="project-image-wrap">
+              <img src="assets/optical_sar.jpg" alt="Multimodal Optical-SAR Satellite Cloud Penetration AI UI" loading="lazy">
+            </div>
+
+            <div class="project-title-row">
+              <h3 class="project-title">Multimodal Optical-SAR Fusion</h3>
+              <div class="project-arrow">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </div>
+            </div>
+
+            <div class="project-subtitle">Cross-Modal Satellite Reconstruction</div>
+            <p class="project-description">
+              Dual-stream cross-modal attention ResU-Net reconstructing cloud-occluded multispectral imagery using Sentinel-1 SAR.
+            </p>
+
+            <div class="project-tags">
+              <span class="project-tag">PyTorch</span>
+              <span class="project-tag">Deep Learning</span>
+              <span class="project-tag">Sentinel-1/2</span>
+            </div>
+          </article>
+
+          <!-- Project 6: VeriClaim-Agent -->
+          <article class="project-card" data-project="vericlaim" tabindex="0" role="button"
+            aria-label="View VeriClaim-Agent details">
+            <div class="project-image-wrap">
+              <img src="assets/vericlaim.jpg" alt="VeriClaim Autonomous Medical Insurance Multi-Agent Console" loading="lazy">
+            </div>
+
+            <div class="project-title-row">
+              <h3 class="project-title">VeriClaim-Agent</h3>
+              <div class="project-arrow">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </div>
+            </div>
+
+            <div class="project-subtitle">Autonomous Insurance Adjudication</div>
+            <p class="project-description">
+              Autonomous multi-agent workflow parsing clinical EHR documents, verifying policy clauses, and detecting fraud with audit trails.
+            </p>
+
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">LangGraph</span>
+              <span class="project-tag">GenAI Agents</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         ABOUT ME & CAPABILITIES
+         ========================================================================== -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="about-grid">
+
+          <!-- Left Column -->
+          <div class="about-text-col">
+            <div class="section-eyebrow">
+              <span>ABOUT ME</span>
+              <svg width="10" height="10" viewBox="0 0 24 24">
+                <path d="M5 3l14 9-14 9V3z" fill="var(--primary-orange)" />
+              </svg>
+            </div>
+
+            <h2 class="section-heading">
+              Curious Builder and Problem <span class="highlight">Solver</span>
+            </h2>
+
+            <p class="about-body">
+              I'm a Computer Engineering student with a strong interest in Artificial Intelligence, Machine Learning and
+              software development. I enjoy building products, solving real-world problems and exploring new
+              technologies.
+            </p>
+
+            <button type="button" class="btn-outline-pill js-open-about-modal">
+              <span>More About Me</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </div>
+
+          <!-- Right Column: 2x2 Capability Cards -->
+          <div class="capabilities-grid">
+
+            <div class="capability-card">
+              <div class="capability-icon-wrap">
+                <!-- Brain icon -->
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 4.44-2.04z">
+                  </path>
+                  <path
+                    d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-4.44-2.04z">
+                  </path>
+                </svg>
+              </div>
+              <h3 class="capability-title">AI/ML</h3>
+              <p class="capability-desc">Building intelligent solutions with real-world impact.</p>
+            </div>
+
+            <div class="capability-card">
+              <div class="capability-icon-wrap">
+                <!-- Code icon -->
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <h3 class="capability-title">Full-Stack Development</h3>
+              <p class="capability-desc">Turning ideas into scalable web applications.</p>
+            </div>
+
+            <div class="capability-card">
+              <div class="capability-icon-wrap">
+                <!-- Lightbulb icon -->
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="9" y1="18" x2="15" y2="18"></line>
+                  <line x1="10" y1="22" x2="14" y2="22"></line>
+                  <path
+                    d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14">
+                  </path>
+                </svg>
+              </div>
+              <h3 class="capability-title">Entrepreneurship</h3>
+              <p class="capability-desc">Exploring business ideas and product development.</p>
+            </div>
+
+            <div class="capability-card">
+              <div class="capability-icon-wrap">
+                <!-- Users / Leadership icon -->
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+              <h3 class="capability-title">Leadership</h3>
+              <p class="capability-desc">Team collaboration, project management and growth mindset.</p>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SKILLS & TECHNOLOGIES
+         ========================================================================== -->
+    <section class="skills-section" id="skills">
+      <div class="container">
+        <div class="skills-wrapper">
+          <div class="skills-header">
+            <div class="section-eyebrow" style="margin-bottom: 4px;">SKILLS & TOOLCHAIN</div>
+            <h2 class="skills-title">Technologies I Work With</h2>
+            <p class="skills-subtext">Autonomous perception pipelines, distributed systems, deep learning architectures & modern full-stack web platforms</p>
+          </div>
+
+          <!-- Rail 1 (Scrolls Left) -->
+          <div class="skills-marquee-viewport">
+            <div class="skills-track rail-left">
+              <!-- Group 1 -->
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python"></div>
+                <span>Python</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="C++"></div>
+                <span>C++20</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" alt="PyTorch"></div>
+                <span>PyTorch</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ros/ros-original.svg" alt="ROS2"></div>
+                <span>ROS2 Humble</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript"></div>
+                <span>TypeScript</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" alt="Next.js"></div>
+                <span>Next.js 16</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original.svg" alt="OpenCV"></div>
+                <span>OpenCV</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" alt="FastAPI"></div>
+                <span>FastAPI</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker"></div>
+                <span>Docker</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="PostgreSQL"></div>
+                <span>PostgreSQL</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wasm/wasm-original.svg" alt="WebAssembly"></div>
+                <span>WebAssembly</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" alt="Linux"></div>
+                <span>Linux / POSIX</span>
+              </div>
+
+              <!-- Duplicate for seamless infinite loop -->
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python"></div>
+                <span>Python</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="C++"></div>
+                <span>C++20</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" alt="PyTorch"></div>
+                <span>PyTorch</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ros/ros-original.svg" alt="ROS2"></div>
+                <span>ROS2 Humble</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript"></div>
+                <span>TypeScript</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" alt="Next.js"></div>
+                <span>Next.js 16</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original.svg" alt="OpenCV"></div>
+                <span>OpenCV</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" alt="FastAPI"></div>
+                <span>FastAPI</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker"></div>
+                <span>Docker</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="PostgreSQL"></div>
+                <span>PostgreSQL</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wasm/wasm-original.svg" alt="WebAssembly"></div>
+                <span>WebAssembly</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" alt="Linux"></div>
+                <span>Linux / POSIX</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Rail 2 (Scrolls Right) -->
+          <div class="skills-marquee-viewport">
+            <div class="skills-track rail-right">
+              <!-- Group 2 -->
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow"></div>
+                <span>TensorFlow</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React"></div>
+                <span>React 19</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" alt="Redis"></div>
+                <span>Redis</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="Node.js"></div>
+                <span>Node.js</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git"></div>
+                <span>Git</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript"></div>
+                <span>JavaScript</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg" alt="Scikit-Learn"></div>
+                <span>Scikit-Learn</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/google/google-original.svg" alt="Google Gemini API"></div>
+                <span>Google Gemini API</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg" alt="SQLite"></div>
+                <span>SQLite</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" alt="Bash"></div>
+                <span>Bash Shell</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" alt="C"></div>
+                <span>C Systems</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg" alt="Nginx"></div>
+                <span>Nginx</span>
+              </div>
+
+              <!-- Duplicate for seamless infinite loop -->
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow"></div>
+                <span>TensorFlow</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React"></div>
+                <span>React 19</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" alt="Redis"></div>
+                <span>Redis</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="Node.js"></div>
+                <span>Node.js</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git"></div>
+                <span>Git</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript"></div>
+                <span>JavaScript</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg" alt="Scikit-Learn"></div>
+                <span>Scikit-Learn</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/google/google-original.svg" alt="Google Gemini API"></div>
+                <span>Google Gemini API</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg" alt="SQLite"></div>
+                <span>SQLite</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" alt="Bash"></div>
+                <span>Bash Shell</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" alt="C"></div>
+                <span>C Systems</span>
+              </div>
+              <div class="skill-chip">
+                <div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg" alt="Nginx"></div>
+                <span>Nginx</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom Action: Open All Technologies Popup -->
+          <div class="skills-actions-bar">
+            <button type="button" class="skill-chip more-chip" id="openTechModalBtn" aria-haspopup="dialog" aria-expanded="false">
+              <span>View All 36+ Technologies & Logotypes</span>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         PROFESSIONAL EXPERIENCE TIMELINE
+         ========================================================================== -->
+    <section class="section" id="experience">
+      <div class="container">
+
+        <div class="section-header-row" style="margin-bottom: var(--space-8);">
+          <div>
+            <div class="section-eyebrow">
+              <span>CAREER & TRACK RECORD</span>
+              <svg width="10" height="10" viewBox="0 0 24 24">
+                <path d="M5 3l14 9-14 9V3z" fill="var(--primary-orange)" />
+              </svg>
+            </div>
+            <h2 class="section-heading">Professional <span class="highlight">Experience</span></h2>
+            <p class="section-subtext" style="margin-top: 6px;">
+              Engineering multimodal AI perception pipelines, distributed backend architectures, and mission-critical autonomous systems.
+            </p>
+          </div>
+        </div>
+
+        <div class="experience-timeline">
+
+          <!-- Experience 1: NxtChaptr -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div class="timeline-title-group">
+                  <span class="timeline-company-badge">NxtChaptr</span>
+                  <div>
+                    <h3 class="timeline-role">Software Developer</h3>
+                    <div class="timeline-company-name">Edge AI & Full-Stack Infrastructure • Remote / Mumbai</div>
+                  </div>
+                </div>
+                <div class="timeline-date-pill">Nov 2024 – Aug 2025</div>
+              </div>
+
+              <!-- Quick Metric Highlights -->
+              <div class="timeline-metrics-strip">
+                <span class="timeline-metric-chip">⚡ 8m → &lt;30s Listing Time</span>
+                <span class="timeline-metric-chip">⚡ &lt;3.5s In-Browser WASM Matting</span>
+                <span class="timeline-metric-chip">⚡ Zero Cloud-GPU Fees</span>
+                <span class="timeline-metric-chip">🔒 Atomic Redis Distributed Locks</span>
+              </div>
+
+              <!-- Structured High-Signal Bullets -->
+              <ul class="timeline-bullets">
+                <li class="timeline-bullet-item">
+                  <strong>Multimodal AI Listing Automation:</strong> Integrated Google Gemini Vision APIs into merchant listing workflows, automating brand recognition, condition classification, and SEO metadata generation to slash listing turnaround from 8 minutes to under 30 seconds.
+                </li>
+                <li class="timeline-bullet-item">
+                  <strong>Zero-Cost Client-Side Vision:</strong> Deployed on-device image segmentation using a U²-Net model compiled to WebAssembly (WASM), processing background cutouts in &lt;3.5 seconds directly in-browser prior to Cloudinary cloud sync and eliminating cloud-GPU fees.
+                </li>
+                <li class="timeline-bullet-item">
+                  <strong>High-Concurrency State Architecture:</strong> Engineered resilient backend state management using Upstash Redis atomic distributed locks (<code>SET NX EX</code>) and WebSockets to prevent race-condition double purchases on rare 1-of-1 catalog items during live pop-up drops.
+                </li>
+              </ul>
+
+              <!-- Technologies Used -->
+              <div class="timeline-tags-row">
+                <span class="timeline-tag">Google Gemini Vision</span>
+                <span class="timeline-tag">WebAssembly (WASM)</span>
+                <span class="timeline-tag">U²-Net</span>
+                <span class="timeline-tag">Next.js 16</span>
+                <span class="timeline-tag">Redis (Upstash)</span>
+                <span class="timeline-tag">WebSockets</span>
+                <span class="timeline-tag">Cloudinary</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 2: Wroomie -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div class="timeline-title-group">
+                  <span class="timeline-company-badge">Wroomie</span>
+                  <div>
+                    <h3 class="timeline-role">Software Developer</h3>
+                    <div class="timeline-company-name">Applied ML & Backend Engineering • Mumbai, India</div>
+                  </div>
+                </div>
+                <div class="timeline-date-pill">Nov 2023 – Jan 2024</div>
+              </div>
+
+              <!-- Quick Metric Highlights -->
+              <div class="timeline-metrics-strip">
+                <span class="timeline-metric-chip">⚡ 94% Match Satisfaction</span>
+                <span class="timeline-metric-chip">⚡ 35% Faster Query Latency</span>
+                <span class="timeline-metric-chip">🗺️ 2dsphere Geospatial Search</span>
+                <span class="timeline-metric-chip">🤖 Automated Media KYC Ingestion</span>
+              </div>
+
+              <!-- Structured High-Signal Bullets -->
+              <ul class="timeline-bullets">
+                <li class="timeline-bullet-item">
+                  <strong>Behavioral Compatibility Clustering:</strong> Developed multi-attribute compatibility scoring algorithms clustering user lifestyle preferences across 4 behavioral vectors (sleep schedules, cleanliness, dietary rules, and study habits), reaching a 94% match satisfaction rate.
+                </li>
+                <li class="timeline-bullet-item">
+                  <strong>Automated Media Processing:</strong> Built automated room verification and KYC asset validation pipelines using Cloudinary and OpenCV, standardizing room imagery and user profile assets across student housing zones.
+                </li>
+                <li class="timeline-bullet-item">
+                  <strong>Geospatial Query Optimization:</strong> Architected high-throughput Express REST APIs backed by MongoDB 2dsphere indexes, reducing geographic profile and room discovery latency by 35% across high-density rental districts.
+                </li>
+              </ul>
+
+              <!-- Technologies Used -->
+              <div class="timeline-tags-row">
+                <span class="timeline-tag">Applied ML Clustering</span>
+                <span class="timeline-tag">Node.js</span>
+                <span class="timeline-tag">Express.js</span>
+                <span class="timeline-tag">MongoDB Geospatial</span>
+                <span class="timeline-tag">OpenCV</span>
+                <span class="timeline-tag">Cloudinary</span>
+                <span class="timeline-tag">RESTful APIs</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 3: ISRO SIH & IRC Hackathons -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div class="timeline-title-group">
+                  <span class="timeline-company-badge" style="background-color: rgba(251, 191, 36, 0.12); border-color: rgba(251, 191, 36, 0.3); color: #fbbf24;">ISRO SIH & IRC</span>
+                  <div>
+                    <h3 class="timeline-role">Lead Systems Architect & Robotics Engineer</h3>
+                    <div class="timeline-company-name">Autonomous Navigation & Satellite Perception • National Contests</div>
+                  </div>
+                </div>
+                <div class="timeline-date-pill">2024 – 2026</div>
+              </div>
+
+              <!-- Quick Metric Highlights -->
+              <div class="timeline-metrics-strip">
+                <span class="timeline-metric-chip gold">🏆 Winner: ISRO SIH (PS 26168)</span>
+                <span class="timeline-metric-chip">⚡ 15-State ESKF Sensor Fusion</span>
+                <span class="timeline-metric-chip">⚡ 0.42% Subterranean Drift</span>
+                <span class="timeline-metric-chip">🛰️ 32.8 dB PSNR SAR Reconstruction</span>
+              </div>
+
+              <!-- Structured High-Signal Bullets -->
+              <ul class="timeline-bullets">
+                <li class="timeline-bullet-item">
+                  <strong>Winning ISRO SIH Architecture:</strong> Authored the winning sensor fusion architecture for ISRO SIH PS 26168, developing a 15-state Error-State Kalman Filter (ESKF) with non-linear Ceres optimization bounding drift to 0.42% during complete GNSS blackouts.
+                </li>
+                <li class="timeline-bullet-item">
+                  <strong>Multimodal Satellite Reconstruction:</strong> Engineered a dual-stream ResU-Net with cross-modal attention conditioning cloud-covered optical multispectral channels on Sentinel-1 SAR backscatter to reach 32.8 dB PSNR cloud penetration.
+                </li>
+                <li class="timeline-bullet-item">
+                  <strong>Embedded Rover Navigation:</strong> Developed onboard kinematic telemetry, obstacle avoidance guidance, and sensor pipelines on embedded ROS2 compute platforms under the Indian Rover Challenge (IRC).
+                </li>
+              </ul>
+
+              <!-- Technologies Used -->
+              <div class="timeline-tags-row">
+                <span class="timeline-tag">ROS2 Humble</span>
+                <span class="timeline-tag">15-State ESKF</span>
+                <span class="timeline-tag">PyTorch</span>
+                <span class="timeline-tag">C++20</span>
+                <span class="timeline-tag">Eigen3</span>
+                <span class="timeline-tag">Ceres Solver</span>
+                <span class="timeline-tag">Sentinel-1/2 SAR</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CONTACT CTA BANNER
+         ========================================================================== -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+
+        <div class="contact-banner">
+          <div class="contact-banner-glow" aria-hidden="true"></div>
+
+          <div class="contact-banner-content">
+            <div class="section-eyebrow">
+              <span>LET'S CONNECT</span>
+              <svg width="10" height="10" viewBox="0 0 24 24">
+                <path d="M5 3l14 9-14 9V3z" fill="var(--primary-orange)" />
+              </svg>
+            </div>
+            <h2 class="section-heading" style="margin-bottom: 8px;">
+              Have a project in mind?
+            </h2>
+            <p style="font-size: 0.98rem; color: var(--text-secondary); line-height: 1.5;">
+              I'm always open to discussing new opportunities, collaborations, or just tech ideas.
+            </p>
+          </div>
+
+          <div class="contact-banner-btn">
+            <button type="button" class="btn-primary js-open-contact-modal"
+              style="font-size: 1.0rem; padding: 14px 28px;">
+              <span>Get In Touch</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       SITE FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+
+      <div class="footer-brand">
+        <div class="footer-wordmark">ANIRUDH SARVE</div>
+        <div class="footer-motto">Building ideas for a better tomorrow.</div>
+      </div>
+
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/anirudh-sarve-2130a724a" target="_blank" rel="noopener noreferrer"
+          class="social-icon-link" aria-label="LinkedIn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+            <rect x="2" y="9" width="4" height="12"></rect>
+            <circle cx="4" cy="4" r="2"></circle>
+          </svg>
+        </a>
+
+        <a href="https://github.com/anisarve2006" target="_blank" rel="noopener noreferrer" class="social-icon-link"
+          aria-label="GitHub">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path
+              d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+            </path>
+          </svg>
+        </a>
+
+        <a href="https://x.com/SarveAnirudh" target="_blank" rel="noopener noreferrer" class="social-icon-link"
+          aria-label="X Profile">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+          </svg>
+        </a>
+
+        <a href="mailto:anisarve2006@gmail.com" class="social-icon-link" aria-label="Email">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+        </a>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       MODALS
+       ========================================================================== -->
+
+  <!-- 1. Resume Download Selector Modal -->
+  <div class="modal-backdrop" id="resumeModal" role="dialog" aria-modal="true" aria-labelledby="resumeModalTitle">
+    <div class="modal-container">
+      <button type="button" class="modal-close-btn" aria-label="Close modal">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <h3 class="modal-title" id="resumeModalTitle">Download Anirudh's Resume</h3>
+      <p class="modal-desc">
+        Select from the compact 1-page executive summary or targeted ATS-tailored specialized versions:
+      </p>
+
+      <div class="resume-choice-list">
+
+        <!-- Master 1-Page -->
+        <div class="resume-choice-item" style="border-color: var(--primary-orange);">
+          <div class="resume-choice-info">
+            <div class="resume-choice-name">
+              Master Executive Resume <span class="resume-badge">1 Page Recommended</span>
+            </div>
+            <div class="resume-choice-meta">General Software & Applied AI • Calibri Clean Typography</div>
+          </div>
+          <a href="resumes/Anirudh_Sarve_Resume_1Page.pdf" download="Anirudh_Sarve_Resume_1Page.pdf"
+            class="resume-download-link">
+            <span>Download</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+          </a>
+        </div>
+
+        <!-- 01: AI/ML & CV -->
+        <div class="resume-choice-item">
+          <div class="resume-choice-info">
+            <div class="resume-choice-name">AI / Machine Learning & Computer Vision</div>
+            <div class="resume-choice-meta">YOLOv8, PyTorch, Edge Vision, Sensor Fusion • 2 Pages</div>
+          </div>
+          <a href="resumes/01_AI_ML_Computer_Vision_Resume.pdf" download="Anirudh_Sarve_AI_ML_CV_Resume.pdf"
+            class="resume-download-link">
+            <span>Download</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+          </a>
+        </div>
+
+        <!-- 02: Full-Stack -->
+        <div class="resume-choice-item">
+          <div class="resume-choice-info">
+            <div class="resume-choice-name">Full-Stack Software Engineering</div>
+            <div class="resume-choice-meta">Next.js 16, TypeScript, Redis Locks, WebSockets • 2 Pages</div>
+          </div>
+          <a href="resumes/02_Full_Stack_Software_Engineer_Resume.pdf" download="Anirudh_Sarve_Full_Stack_Resume.pdf"
+            class="resume-download-link">
+            <span>Download</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+          </a>
+        </div>
+
+        <!-- 03: Backend & Distributed -->
+        <div class="resume-choice-item">
+          <div class="resume-choice-info">
+            <div class="resume-choice-name">Backend & Distributed Systems</div>
+            <div class="resume-choice-meta">Go, C++, High-Concurrency, Network Protocols • 2 Pages</div>
+          </div>
+          <a href="resumes/03_Backend_Distributed_Systems_Resume.pdf" download="Anirudh_Sarve_Backend_Resume.pdf"
+            class="resume-download-link">
+            <span>Download</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+          </a>
+        </div>
+
+        <!-- 04: GenAI & LLM -->
+        <div class="resume-choice-item">
+          <div class="resume-choice-info">
+            <div class="resume-choice-name">GenAI, LLM & Agentic Systems</div>
+            <div class="resume-choice-meta">Multi-Agent DAGs, MCP, Qdrant, Gemini Vision • 2 Pages</div>
+          </div>
+          <a href="resumes/04_GenAI_LLM_Agentic_Systems_Resume.pdf" download="Anirudh_Sarve_GenAI_Resume.pdf"
+            class="resume-download-link">
+            <span>Download</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+          </a>
+        </div>
+
+        <!-- 05: Robotics & Embedded -->
+        <div class="resume-choice-item">
+          <div class="resume-choice-info">
+            <div class="resume-choice-name">Systems, Robotics & Embedded</div>
+            <div class="resume-choice-meta">ROS2, ARM Cortex-A, Kinematics, ESKF Fusion • 2 Pages</div>
+          </div>
+          <a href="resumes/05_Systems_Robotics_Embedded_Resume.pdf" download="Anirudh_Sarve_Robotics_Resume.pdf"
+            class="resume-download-link">
+            <span>Download</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. Interactive Project Details Modal -->
+  <div class="modal-backdrop" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="projectModalTitle">
+    <div class="modal-container" style="max-width: 680px;">
+      <button type="button" class="modal-close-btn" aria-label="Close modal">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div
+        style="border-radius: var(--radius-inner); overflow: hidden; margin-bottom: 18px; border: 1px solid var(--border);">
+        <img id="projectModalImage" src="assets/navigo.png" alt="Project Preview"
+          style="width: 100%; height: auto; display: block;">
+      </div>
+
+      <h3 class="modal-title" id="projectModalTitle">Project Title</h3>
+      <div id="projectModalSubtitle"
+        style="color: var(--primary-orange); font-weight: 600; font-size: 0.95rem; margin-bottom: 12px;"></div>
+
+      <div id="projectModalTags" class="project-tags" style="margin-bottom: 16px;"></div>
+
+      <div id="projectModalBody"
+        style="font-size: 0.92rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: 24px;"></div>
+
+      <div style="display: flex; justify-content: flex-end; gap: 12px;">
+        <a id="projectModalLink" href="https://github.com/anisarve2006" target="_blank" rel="noopener noreferrer"
+          class="btn-primary" style="padding: 10px 20px;">
+          <span>View on GitHub</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+            <line x1="7" y1="17" x2="17" y2="7"></line>
+            <polyline points="7 7 17 7 17 17"></polyline>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. All Projects Showcase Modal -->
+  <div class="modal-backdrop" id="allProjectsModal" role="dialog" aria-modal="true"
+    aria-labelledby="allProjectsModalTitle">
+    <div class="modal-container" style="max-width: 960px;">
+      <button type="button" class="modal-close-btn" aria-label="Close modal">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="section-eyebrow" style="margin-bottom: 8px;">
+        <span>PROJECT INVENTORY</span>
+        <svg width="10" height="10" viewBox="0 0 24 24"><path d="M5 3l14 9-14 9V3z" fill="var(--primary-orange)"/></svg>
+      </div>
+      <h3 class="modal-title" id="allProjectsModalTitle" style="font-size: 1.6rem; margin-bottom: 10px;">Complete Technical Project Catalog</h3>
+      <p class="modal-desc" style="font-size: 0.94rem; line-height: 1.6; margin-bottom: 24px;">
+        Comprehensive catalog of specialized engineering systems authored across deep learning, robotics, agentic AI, and distributed systems:
+      </p>
+
+      <!-- Category Filter Tabs -->
+      <div class="catalog-filter-bar" id="catalogFilterBar">
+        <button type="button" class="catalog-tab-btn active" data-filter="all">
+          <span>All Systems</span>
+          <span class="catalog-tab-count">14</span>
+        </button>
+        <button type="button" class="catalog-tab-btn" data-filter="aiml">
+          <span>AI/ML & Vision</span>
+          <span class="catalog-tab-count">4</span>
+        </button>
+        <button type="button" class="catalog-tab-btn" data-filter="robotics">
+          <span>Robotics & Autonomous</span>
+          <span class="catalog-tab-count">2</span>
+        </button>
+        <button type="button" class="catalog-tab-btn" data-filter="genai">
+          <span>GenAI & Agentic</span>
+          <span class="catalog-tab-count">4</span>
+        </button>
+        <button type="button" class="catalog-tab-btn" data-filter="systems">
+          <span>Systems & Distributed</span>
+          <span class="catalog-tab-count">4</span>
+        </button>
+      </div>
+
+      <!-- Project Cards List -->
+      <div class="resume-choice-list" id="catalogProjectsList">
+
+        <!-- 1. Neural-Inertial Dead Reckoning -->
+        <div class="catalog-card" data-category="robotics">
+          <div class="catalog-card-header">
+            <div>
+              <h4 class="catalog-card-title">Neural-Inertial Dead-Reckoning Engine with 15-State ESKF</h4>
+              <div class="catalog-meta-row" style="margin-top: 6px;">
+                <span class="catalog-resume-pill">ISRO SIH PS 26168 • AI/ML & Robotics Resumes</span>
+              </div>
+            </div>
+            <span class="catalog-card-category">Robotics & AV</span>
+          </div>
+          <p class="catalog-card-desc">
+            Continuous-time sensor fusion fusing 6-DoF IMU kinematics and wheel odometry with a 15-state Error-State Kalman Filter (ESKF). Integrated deep zero-velocity updates (ZUPT) and Ceres non-linear optimization to bound positioning drift to 0.42% over GNSS-denied subterranean trajectories.
+          </p>
+          <div class="catalog-card-footer">
+            <div class="catalog-tech-tags">
+              <span class="catalog-tech-tag">C++20</span>
+              <span class="catalog-tech-tag">ROS2 Humble</span>
+              <span class="catalog-tech-tag">Eigen3</span>
+              <span class="catalog-tech-tag">Ceres Solver</span>
+              <span class="catalog-tech-tag">PyTorch</span>
+              <span class="catalog-tech-tag">RTK-GNSS</span>
+            </div>
+            <a href="https://github.com/anisarve2006" target="_blank" rel="noopener noreferrer" class="catalog-action-link">
+              <span>View Source</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- 2. Multimodal Optical-SAR Fusion ResU-Net -->
+        <div class="catalog-card" data-category="aiml">
+          <div class="catalog-card-header">
+            <div>
+              <h4 class="catalog-card-title">Multimodal Optical-SAR Fusion ResU-Net with Cross-Modal Attention</h4>
+              <div class="catalog-meta-row" style="margin-top: 6px;">
+                <span class="catalog-resume-pill">ISRO LISS-IV • AI/ML & Data Science Resumes</span>
+              </div>
+            </div>
+            <span class="catalog-card-category">Deep Learning</span>
+          </div>
+          <p class="catalog-card-desc">
+            Dual-stream cross-modal attention network reconstructing cloud-occluded optical multispectral imagery by conditioning on Sentinel-1 C-band synthetic aperture radar (SAR) backscatter. Reached 32.8 dB PSNR and 0.91 SSIM cloud-penetration fidelity.
+          </p>
+          <div class="catalog-card-footer">
+            <div class="catalog-tech-tags">
+              <span class="catalog-tech-tag">PyTorch</span>
+              <span class="catalog-tech-tag">CUDA</span>
+              <span class="catalog-tech-tag">GDAL</span>
+              <span class="catalog-tech-tag">Sentinel-1/2</span>
+              <span class="catalog-tech-tag">ResU-Net</span>
+              <span class="catalog-tech-tag">Attention</span>
+            </div>
+            <a href="https://github.com/anisarve2006" target="_blank" rel="noopener noreferrer" class="catalog-action-link">
+              <span>View Source</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- 3. NAViGO -->
+        <div class="catalog-card" data-category="robotics">
+          <div class="catalog-card-header">
+            <div>
+              <h4 class="catalog-card-title">NAViGO — Embedded Robotic Vision & Autonomous Vehicle Navigation</h4>
+              <div class="catalog-meta-row" style="margin-top: 6px;">
+                <span class="catalog-resume-pill">Systems, Robotics & 1-Page Master Resume</span>
+              </div>
+            </div>
+            <span class="catalog-card-category">Robotics & AV</span>
+          </div>
+          <p class="catalog-card-desc">
+            Autonomous vehicle perception stack executing real-time obstacle detection and dual-ROI sliding-window polynomial lane tracking at sub-3 ms CPU latency on ARM Cortex-A processors. Delivers predictive collision warnings and deterministic heading steering commands.
+          </p>
+          <div class="catalog-card-footer">
+            <div class="catalog-tech-tags">
+              <span class="catalog-tech-tag">Python</span>
+              <span class="catalog-tech-tag">OpenCV</span>
+              <span class="catalog-tech-tag">YOLOv8</span>
+              <span class="catalog-tech-tag">ROS2</span>
+              <span class="catalog-tech-tag">ARM Cortex-A</span>
+              <span class="catalog-tech-tag">TensorRT</span>
+            </div>
+            <a href="https://github.com/anisarve2006" target="_blank" rel="noopener noreferrer" class="catalog-action-link">
+              <span>View Source</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- 4. ProtoLink -->
+        <div class="catalog-card" data-category="systems">
+          <div class="catalog-card-header">
+            <div>
+              <h4 class="catalog-card-title">ProtoLink — Custom Network Protocol Lab & Packet Telemetry Simulator</h4>
+              <div class="catalog-meta-row" style="margin-top: 6px;">
+                <span class="catalog-resume-pill">Full-Stack, Systems & 1-Page Master Resume</span>
+              </div>
+            </div>
+            <span class="catalog-card-category">Distributed Systems</span>
+          </div>
+          <p class="catalog-card-desc">
+            Custom user-space sliding-window transport protocol simulator in modern C++. Features Selective Repeat (SR), cumulative acknowledgments, synthetic channel degradation (latency jitter, randomized drops, bit corruption), and live terminal telemetry tracking cwnd and throughput dynamics.
+          </p>
+          <div class="catalog-card-footer">
+            <div class="catalog-tech-tags">
+              <span class="catalog-tech-tag">Modern C++</span>
+              <span class="catalog-tech-tag">POSIX Sockets</span>
+              <span class="catalog-tech-tag">Multithreading</span>
+              <span class="catalog-tech-tag">Traffic Emulation</span>
+            </div>
+            <a href="https://github.com/anisarve2006" target="_blank" rel="noopener noreferrer" class="catalog-action-link">
+              <span>View Source</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- 5. Virtual Try-On & Marketplace Engine -->
+        <div class="catalog-card" data-category="aiml">
+          <div class="catalog-card-header">
+            <div>
+              <h4 class="catalog-card-title">Virtual Try-On & High-Concurrency Marketplace Engine with WASM Edge Matting</h4>
+              <div class="catalog-meta-row" style="margin-top: 6px;">
+                <span class="catalog-resume-pill">AI/ML, Full-Stack & 1-Page Master Resume</span>
+              </div>
+            </div>
+            <span class="catalog-card-category">Applied AI & Web</span>
+          </div>
+          <p class="catalog-card-desc">
+            Production multimodal fashion platform with in-browser WebAssembly background matting (U²-Net) executing in <3.5s without cloud GPU costs. Automated apparel cataloging via Google Gemini Vision API cutting creation time from 8 minutes to <30 seconds with Upstash Redis atomic locks.
+          </p>
+          <div class="catalog-card-footer">
+            <div class="catalog-tech-tags">
+              <span class="catalog-tech-tag">Next.js 16</span>
+              <span class="catalog-tech-tag">Python</span>
+              <span class="catalog-tech-tag">WebAssembly</span>
+              <span class="catalog-tech-tag">Gemini Vision</span>
+              <span class="catalog-tech-tag">U²-Net</span>
+              <span class="catalog-tech-tag">Redis</span>
+            </div>
+            <a href="https://github.com/anisarve2006" target="_blank" rel="noopener noreferrer" class="catalog-action-link">
+              <span>View Source</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- 6. Neuro-Symbolic Hybrid Retrieval Engine (Sandarbh) -->
+        <div class="catalog-card" data-category="genai">
+          <div class="catalog-card-header">
+            <div>
+              <h4 class="catalog-card-title">Neuro-Symbolic Hybrid Retrieval Engine & Standards Compliance Platform</h4>
+              <div class="catalog-meta-row" style="margin-top: 6px;">
+                <span class="catalog-resume-pill">SIH PS 26108 • GenAI & Full-Stack Resumes</span>
+              </div>
+            </div>
+            <span class="catalog-card-category">GenAI & LLMs</span>
+          </div>
+          <p class="catalog-card-desc">
+            Hybrid dense-sparse retrieval system combining Qdrant dense vector embeddings with BM25 sparse keyword search and cross-encoder re-ranking. Indexes 10,000+ national building codes and ISO regulations, delivering paragraph-level verifiable citations with zero hallucinations.
+          </p>
+          <div class="catalog-card-footer">
+            <div class="catalog-tech-tags">
+              <span class="catalog-tech-tag">FastAPI</span>
+              <span class="catalog-tech-tag">Qdrant</span>
+              <span class="catalog-tech-tag">BM25</span>
+              <span class="catalog-tech-tag">Sentence-Transformers</span>
+              <span class="catalog-tech-tag">Llama-3</span>
+              <span class="catalog-tech-tag">TypeScript</span>
+            </div>
+            <a href="https://github.com/anisarve2006" target="_blank" rel="noopener noreferrer" class="catalog-action-link">
+              <span>View Source</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- 7. Autonomous Multi-Agent DAG Platform (AMAR) -->
+        <div class="catalog-card" data-category="genai">
+          <div class="catalog-card-header">
+            <div>
+              <h4 class="catalog-card-title">Autonomous Multi-Agent DAG Orchestration Platform with Hash-Verified Citations</h4>
+              <div class="catalog-meta-row" style="margin-top: 6px;">
+                <span class="catalog-resume-pill">AMAR Platform • GenAI & Agentic Systems Resume</span>
+              </div>
+            </div>
+            <span class="catalog-card-category">GenAI & LLMs</span>
+          </div>
+          <p class="catalog-card-desc">
+            Directed Acyclic Graph multi-agent runtime built with LangGraph and FastAPI. Features dynamic worker delegation, cyclical validation loops, cryptographic hash checks for cited documents, and stateful human-in-the-loop audit checkpoints.
+          </p>
+          <div class="catalog-card-footer">
+            <div class="catalog-tech-tags">
+              <span class="catalog-tech-tag">Python</span>
+              <span class="catalog-tech-tag">LangGraph</span>
+              <span class="catalog-tech-tag">FastAPI</span>
+              <span class="catalog-tech-tag">Redis</span>
+              <span class="catalog-tech-tag">Gemini 1.5 Pro</span>
+              <span class="catalog-tech-tag">Docker</span>
+            </div>
+            <a href="https://github.com/anisarve2006" target="_blank" rel="noopener noreferrer" class="catalog-action-link">
+              <span>View Source</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- 8. Sub-150ms Vector Graphics Stream PDF Compiler (Cadify) -->
+        <div class="catalog-card" data-category="systems">
+          <div class="catalog-card-header">
+            <div>
+              <h4 class="catalog-card-title">Sub-150ms Vector Graphics Stream PDF Compiler & Model Context Protocol (MCP) Server</h4>
+              <div class="catalog-meta-row" style="margin-top: 6px;">
+                <span class="catalog-resume-pill">Cadify Engine • Full-Stack & GenAI Resumes</span>
+              </div>
+            </div>
+            <span class="catalog-card-category">Distributed Systems</span>
+          </div>
+          <p class="catalog-card-desc">
+            Ultra-low-latency vector graphics rendering engine and Model Context Protocol (MCP) tool provider. Enables LLMs to programmatically generate CAD-grade technical drawings and compile high-resolution vector PDFs under 150 ms with chunked streaming.
+          </p>
+          <div class="catalog-card-footer">
+            <div class="catalog-tech-tags">
+              <span class="catalog-tech-tag">Node.js</span>
+              <span class="catalog-tech-tag">TypeScript</span>
+              <span class="catalog-tech-tag">MCP Protocol</span>
+              <span class="catalog-tech-tag">SVG/PDFKit</span>
+              <span class="catalog-tech-tag">WebSockets</span>
+            </div>
+            <a href="https://github.com/anisarve2006" target="_blank" rel="noopener noreferrer" class="catalog-action-link">
+              <span>View Source</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- 9. Cross-Lingual Figurative NLP Engine -->
+        <div class="catalog-card" data-category="genai">
+          <div class="catalog-card-header">
+            <div>
+              <h4 class="catalog-card-title">Cross-Lingual Non-Compositional Figurative NLP Engine & Indic Tokenizer</h4>
+              <div class="catalog-meta-row" style="margin-top: 6px;">
+                <span class="catalog-resume-pill">108k Corpus • AI/ML & GenAI Resumes</span>
+              </div>
+            </div>
+            <span class="catalog-card-category">GenAI & LLMs</span>
+          </div>
+          <p class="catalog-card-desc">
+            Constructed a 108,000-sample parallel idiom corpus and fine-tuned multilingual transformer models (IndicBERT, XLM-RoBERTa) to translate idioms and non-compositional phrases across Indic languages with 88.4% contextual semantic fidelity.
+          </p>
+          <div class="catalog-card-footer">
+            <div class="catalog-tech-tags">
+              <span class="catalog-tech-tag">Transformers</span>
+              <span class="catalog-tech-tag">PyTorch</span>
+              <span class="catalog-tech-tag">IndicBERT</span>
+              <span class="catalog-tech-tag">Whisper</span>
+              <span class="catalog-tech-tag">HuggingFace</span>
+            </div>
+            <a href="https://github.com/anisarve2006" target="_blank" rel="noopener noreferrer" class="catalog-action-link">
+              <span>View Source</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- 10. Coordinate-Bounded Document AI -->
+        <div class="catalog-card" data-category="aiml">
+          <div class="catalog-card-header">
+            <div>
+              <h4 class="catalog-card-title">Coordinate-Bounded Document AI & Deterministic Tabular Ledger Extraction Engine</h4>
+              <div class="catalog-meta-row" style="margin-top: 6px;">
+                <span class="catalog-resume-pill">TIH Banking Pipeline • Data Science & Full-Stack</span>
+              </div>
+            </div>
+            <span class="catalog-card-category">Deep Learning</span>
+          </div>
+          <p class="catalog-card-desc">
+            Spatial bounding-box OCR engine parsing multi-page financial statements, passbooks, and tabular ledgers. Combines LayoutLMv3 spatial tokens with heuristic geometric alignment, achieving 99.1% cell-extraction accuracy on degraded document scans.
+          </p>
+          <div class="catalog-card-footer">
+            <div class="catalog-tech-tags">
+              <span class="catalog-tech-tag">Python</span>
+              <span class="catalog-tech-tag">LayoutLMv3</span>
+              <span class="catalog-tech-tag">PyMuPDF</span>
+              <span class="catalog-tech-tag">OpenCV</span>
+              <span class="catalog-tech-tag">FastAPI</span>
+              <span class="catalog-tech-tag">SQLite</span>
+            </div>
+            <a href="https://github.com/anisarve2006" target="_blank" rel="noopener noreferrer" class="catalog-action-link">
+              <span>View Source</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- 11. Air-Gapped Multimodal Media Pipeline -->
+        <div class="catalog-card" data-category="genai">
+          <div class="catalog-card-header">
+            <div>
+              <h4 class="catalog-card-title">Air-Gapped Multimodal Media Understanding Pipeline with Prompt-Conditioned Beam Decoding</h4>
+              <div class="catalog-meta-row" style="margin-top: 6px;">
+                <span class="catalog-resume-pill">Local Inference Engine • GenAI & Systems Resumes</span>
+              </div>
+            </div>
+            <span class="catalog-card-category">GenAI & LLMs</span>
+          </div>
+          <p class="catalog-card-desc">
+            Fully air-gapped speech transcription and multimodal indexing engine running on zero-egress hardware. Optimized Whisper Large-v3 with CTranslate2 INT8 quantization and FFmpeg streaming audio filters, sustaining 4.2x real-time transcription speeds.
+          </p>
+          <div class="catalog-card-footer">
+            <div class="catalog-tech-tags">
+              <span class="catalog-tech-tag">Whisper v3</span>
+              <span class="catalog-tech-tag">CTranslate2</span>
+              <span class="catalog-tech-tag">FFmpeg</span>
+              <span class="catalog-tech-tag">PyTorch</span>
+              <span class="catalog-tech-tag">ONNX Runtime</span>
+            </div>
+            <a href="https://github.com/anisarve2006" target="_blank" rel="noopener noreferrer" class="catalog-action-link">
+              <span>View Source</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- 12. Interactive OS Kernel Scheduler (Syspulse / LogPulse) -->
+        <div class="catalog-card" data-category="systems">
+          <div class="catalog-card-header">
+            <div>
+              <h4 class="catalog-card-title">Interactive OS Kernel Process Scheduler & Contiguous Memory Allocator</h4>
+              <div class="catalog-meta-row" style="margin-top: 6px;">
+                <span class="catalog-resume-pill">Syspulse / LogPulse • Systems & Full-Stack</span>
+              </div>
+            </div>
+            <span class="catalog-card-category">Distributed Systems</span>
+          </div>
+          <p class="catalog-card-desc">
+            Kernel simulation environment implementing Preemptive Round-Robin, Multi-Level Feedback Queues (MLFQ), and dynamic memory fragmentation allocators (First/Best/Worst Fit). Transmits live telemetry over WebSockets to an interactive Gantt timeline visualizer.
+          </p>
+          <div class="catalog-card-footer">
+            <div class="catalog-tech-tags">
+              <span class="catalog-tech-tag">C++</span>
+              <span class="catalog-tech-tag">POSIX Threads</span>
+              <span class="catalog-tech-tag">Linux Sockets</span>
+              <span class="catalog-tech-tag">React</span>
+              <span class="catalog-tech-tag">WebSockets</span>
+            </div>
+            <a href="https://github.com/anisarve2006" target="_blank" rel="noopener noreferrer" class="catalog-action-link">
+              <span>View Source</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- 13. ACID Distributed Multi-Warehouse Inventory (DWM WareHouse) -->
+        <div class="catalog-card" data-category="systems">
+          <div class="catalog-card-header">
+            <div>
+              <h4 class="catalog-card-title">ACID-Compliant Distributed Multi-Warehouse Inventory Ledger with Connection Pooling</h4>
+              <div class="catalog-meta-row" style="margin-top: 6px;">
+                <span class="catalog-resume-pill">DWM Engine • Data Science & Full-Stack</span>
+              </div>
+            </div>
+            <span class="catalog-card-category">Distributed Systems</span>
+          </div>
+          <p class="catalog-card-desc">
+            High-concurrency inventory reconciliation platform enforcing strict serializable transaction isolation, distributed row-level locking (SELECT FOR UPDATE), and automated 2FA ledger approval workflows across federated regional supply depots.
+          </p>
+          <div class="catalog-card-footer">
+            <div class="catalog-tech-tags">
+              <span class="catalog-tech-tag">PostgreSQL</span>
+              <span class="catalog-tech-tag">Python</span>
+              <span class="catalog-tech-tag">SQLAlchemy</span>
+              <span class="catalog-tech-tag">Redis</span>
+              <span class="catalog-tech-tag">Docker</span>
+              <span class="catalog-tech-tag">JWT/TOTP</span>
+            </div>
+            <a href="https://github.com/anisarve2006" target="_blank" rel="noopener noreferrer" class="catalog-action-link">
+              <span>View Source</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- 14. Spectral-Visual Deepfake Forensic Classifier -->
+        <div class="catalog-card" data-category="aiml">
+          <div class="catalog-card-header">
+            <div>
+              <h4 class="catalog-card-title">Cross-Modal Spectral-Visual Biometric Deepfake Forensic Classifier & Temporal Splicing Detector</h4>
+              <div class="catalog-meta-row" style="margin-top: 6px;">
+                <span class="catalog-resume-pill">Deepfake Forensic • AI/ML & Data Science</span>
+              </div>
+            </div>
+            <span class="catalog-card-category">Deep Learning</span>
+          </div>
+          <p class="catalog-card-desc">
+            Dual-domain facial manipulation forensics framework combining 2D Discrete Cosine Transform (DCT) frequency anomaly detection with spatiotemporal eye-blink / facial landmark coherence analysis. Achieves 94.6% AUC-ROC against generative diffusion face-swaps.
+          </p>
+          <div class="catalog-card-footer">
+            <div class="catalog-tech-tags">
+              <span class="catalog-tech-tag">PyTorch</span>
+              <span class="catalog-tech-tag">EfficientNet</span>
+              <span class="catalog-tech-tag">FFT/DCT</span>
+              <span class="catalog-tech-tag">OpenCV</span>
+              <span class="catalog-tech-tag">Dlib</span>
+            </div>
+            <a href="https://github.com/anisarve2006" target="_blank" rel="noopener noreferrer" class="catalog-action-link">
+              <span>View Source</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- 4. More About Me Modal -->
+  <div class="modal-backdrop" id="aboutModal" role="dialog" aria-modal="true" aria-labelledby="aboutModalTitle">
+    <div class="modal-container" style="max-width: 650px;">
+      <button type="button" class="modal-close-btn" aria-label="Close modal">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <h3 class="modal-title" id="aboutModalTitle">About Anirudh Sarve</h3>
+      <div style="color: var(--primary-orange); font-weight: 600; font-size: 0.95rem; margin-bottom: 16px;">
+        Vidyalankar Institute of Technology (VIT Mumbai) • CGPA: 8.90 / 10.0
+      </div>
+
+      <div
+        style="font-size: 0.92rem; color: var(--text-secondary); line-height: 1.65; display: flex; flex-direction: column; gap: 14px;">
+        <p>
+          I am a Computer Engineering student based in Mumbai, India, passionate about the convergence of deep learning,
+          computer vision, and high-performance distributed systems.
+        </p>
+        <p>
+          My work spans building end-to-end autonomous vehicle perception pipelines, designing resilient multi-agent DAG
+          architectures, and writing robust low-level network protocols in modern C++ and Python.
+        </p>
+        <div
+          style="background-color: var(--surface-raised); border: 1px solid var(--border); border-radius: var(--radius-inner); padding: 14px 18px;">
+          <h4 style="color: var(--text-primary); margin-bottom: 6px;">Key Milestones & Distinctions:</h4>
+          <ul style="margin-left: 18px; color: var(--text-muted); font-size: 0.88rem; line-height: 1.55;">
+            <li><strong>Lead Architect — ISRO Smart India Hackathon (SIH 2026):</strong> Authored winning AI-ESKF
+              sensor-fusion architecture for PS 26168.</li>
+            <li><strong>Indian Rover Challenge (IRC):</strong> Autonomous Navigation Team developing onboard kinematic
+              estimators.</li>
+            <li><strong>Scholastic Excellence:</strong> 8.90 / 10.0 CGPA at VIT Mumbai; 92.60% in Maharashtra State
+              Board HSC Examination.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5. Interactive Contact & "Let's Talk" Modal -->
+  <div class="modal-backdrop" id="contactModal" role="dialog" aria-modal="true" aria-labelledby="contactModalTitle">
+    <div class="modal-container">
+      <button type="button" class="modal-close-btn" aria-label="Close modal">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <h3 class="modal-title" id="contactModalTitle">Let's Connect & Collaborate</h3>
+      <p class="modal-desc">
+        Choose your preferred channel for instant notifications or compose a message below:
+      </p>
+
+      <!-- Instant Notification Quick Channels -->
+      <div class="contact-channels-grid">
+        <a href="https://wa.me/919322381894?text=Hi%20Anirudh,%20I%20saw%20your%20portfolio%20and%20wanted%20to%20connect!" target="_blank" rel="noopener noreferrer" class="channel-card channel-whatsapp" id="quickWhatsAppBtn">
+          <div class="channel-icon" style="color: #25D366;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c4.56 0 8.25 3.69 8.25 8.24 0 2.2-.86 4.28-2.42 5.83a8.217 8.217 0 0 1-5.83 2.41c-1.45 0-2.88-.38-4.14-1.11l-.3-.17-3.08.81.82-3-.2-.31a8.213 8.213 0 0 1-1.25-4.46c0-4.55 3.69-8.24 8.25-8.24m4.54 11.64c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.24-.75-.67-1.25-1.49-1.39-1.74-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.17.04-.32-.02-.44-.06-.13-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43h-.47c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.57.13.17 1.75 2.68 4.24 3.76.59.26 1.06.41 1.42.53.6.19 1.14.16 1.57.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.1-.23-.17-.48-.29z"/>
+            </svg>
+          </div>
+          <div class="channel-info">
+            <span class="channel-title">WhatsApp Ping</span>
+            <span class="channel-subtitle">Instant Phone Notification</span>
+          </div>
+        </a>
+
+        <a href="mailto:anisarve2006@gmail.com?subject=Portfolio%20Inquiry%20for%20Anirudh%20Sarve" class="channel-card" id="quickMailtoBtn">
+          <div class="channel-icon" style="color: var(--primary-orange);">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </div>
+          <div class="channel-info">
+            <span class="channel-title">Direct Email</span>
+            <span class="channel-subtitle">Opens in Gmail / Client</span>
+          </div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/anirudh-sarve-2130a724a" target="_blank" rel="noopener noreferrer" class="channel-card channel-linkedin">
+          <div class="channel-icon" style="color: #0A66C2;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76c.97 0 1.75-.79 1.75-1.76s-.78-1.75-1.75-1.75a1.76 1.76 0 0 0-1.76 1.75c0 .97.79 1.76 1.76 1.76m1.39 9.74v-8.37H5.07v8.37h2.78z"/>
+            </svg>
+          </div>
+          <div class="channel-info">
+            <span class="channel-title">LinkedIn DM</span>
+            <span class="channel-subtitle">anirudh-sarve</span>
+          </div>
+        </a>
+      </div>
+
+      <!-- Copy Email Address Bar -->
+      <div class="copy-email-box" style="margin-bottom: 20px;">
+        <div>
+          <div style="font-size: 0.74rem; color: var(--text-muted); text-transform: uppercase; font-weight: 700; letter-spacing: 0.05em;">Email Address</div>
+          <div class="email-address-text">anisarve2006@gmail.com</div>
+        </div>
+        <button type="button" class="copy-btn" id="copyEmailBtn">Copy Email</button>
+      </div>
+
+      <!-- Quick Message Composer -->
+      <div style="font-size: 0.85rem; font-weight: 700; color: var(--text-primary); margin-bottom: 12px; display: flex; align-items: center; gap: 8px;">
+        <span>Compose Message:</span>
+        <div style="flex-grow: 1; height: 1px; background-color: var(--border-subtle);"></div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <div class="form-group">
+          <label class="form-label" for="contactName">Your Name</label>
+          <input type="text" id="contactName" class="form-input" placeholder="e.g. Sarah Connor" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="contactEmail">Your Email</label>
+          <input type="email" id="contactEmail" class="form-input" placeholder="name@company.com" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="contactMessage">Message</label>
+          <textarea id="contactMessage" class="form-textarea" placeholder="Describe your project, role, or proposal..." required></textarea>
+        </div>
+
+        <!-- Dual Notification Action Buttons -->
+        <div class="form-actions-row">
+          <button type="submit" class="btn-primary" id="sendEmailSubmitBtn">
+            <span>Send via Email Client</span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <line x1="22" y1="2" x2="11" y2="13"></line>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+            </svg>
+          </button>
+
+          <button type="button" class="btn-whatsapp" id="sendWhatsAppFormBtn">
+            <span>Send via WhatsApp</span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c4.56 0 8.25 3.69 8.25 8.24 0 2.2-.86 4.28-2.42 5.83a8.217 8.217 0 0 1-5.83 2.41c-1.45 0-2.88-.38-4.14-1.11l-.3-.17-3.08.81.82-3-.2-.31a8.213 8.213 0 0 1-1.25-4.46c0-4.55 3.69-8.24 8.25-8.24m4.54 11.64c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.24-.75-.67-1.25-1.49-1.39-1.74-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.17.04-.32-.02-.44-.06-.13-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43h-.47c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.57.13.17 1.75 2.68 4.24 3.76.59.26 1.06.41 1.42.53.6.19 1.14.16 1.57.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.1-.23-.17-.48-.29z"/>
+            </svg>
+          </button>
+        </div>
+      </form>
+
+    </div>
+  </div>
+
+  <!-- 5. Comprehensive Technology Stack & Tools Modal -->
+  <div class="modal-backdrop" id="techStackModal" role="dialog" aria-modal="true" aria-labelledby="techStackModalTitle">
+    <div class="modal-container" style="max-width: 920px;">
+      <button type="button" class="modal-close-btn" aria-label="Close modal">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="section-eyebrow" style="margin-bottom: 6px;">
+        <span>TECHNICAL ECOSYSTEM</span>
+        <svg width="10" height="10" viewBox="0 0 24 24"><path d="M5 3l14 9-14 9V3z" fill="var(--primary-orange)"/></svg>
+      </div>
+      <h3 class="modal-title" id="techStackModalTitle">Complete Engineering Toolchain & Logotypes</h3>
+      <p class="modal-desc">
+        Comprehensive catalog of programming languages, deep learning frameworks, robotics toolkits, and distributed infrastructure:
+      </p>
+
+      <!-- Live Search & Category Filter -->
+      <div class="tech-search-bar">
+        <svg class="tech-search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="text" id="techSearchInput" class="tech-search-input" placeholder="Search technologies by name or keywords (e.g. PyTorch, ROS2, C++, Next.js)...">
+      </div>
+
+      <div class="catalog-filter-bar" id="techCategoryFilterBar">
+        <button type="button" class="catalog-tab-btn active" data-tech-filter="all">
+          <span>All Stack</span>
+          <span class="catalog-tab-count" id="techCountAll">36</span>
+        </button>
+        <button type="button" class="catalog-tab-btn" data-tech-filter="languages">
+          <span>Languages</span>
+          <span class="catalog-tab-count">7</span>
+        </button>
+        <button type="button" class="catalog-tab-btn" data-tech-filter="aiml">
+          <span>AI / Vision</span>
+          <span class="catalog-tab-count">7</span>
+        </button>
+        <button type="button" class="catalog-tab-btn" data-tech-filter="robotics">
+          <span>Robotics & AV</span>
+          <span class="catalog-tab-count">5</span>
+        </button>
+        <button type="button" class="catalog-tab-btn" data-tech-filter="genai">
+          <span>GenAI & LLMs</span>
+          <span class="catalog-tab-count">5</span>
+        </button>
+        <button type="button" class="catalog-tab-btn" data-tech-filter="web">
+          <span>Web & Distributed</span>
+          <span class="catalog-tab-count">6</span>
+        </button>
+        <button type="button" class="catalog-tab-btn" data-tech-filter="devops">
+          <span>DevOps & Databases</span>
+          <span class="catalog-tab-count">6</span>
+        </button>
+      </div>
+
+      <!-- Technologies Grid with Exact Official Logos -->
+      <div class="tech-grid" id="techCardsGrid">
+
+        <!-- 1. Python -->
+        <div class="tech-card" data-tech-cat="languages" data-keywords="python ai ml backend scripting data">
+          <div class="tech-card-logo">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python logo">
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">Python</div>
+            <span class="tech-card-badge">Languages</span>
+            <div class="tech-card-desc">Core for PyTorch, OpenCV, ROS2 nodes & FastAPI</div>
+          </div>
+        </div>
+
+        <!-- 2. C++ -->
+        <div class="tech-card" data-tech-cat="languages" data-keywords="c++ cpp systems algorithms low-level robotics">
+          <div class="tech-card-logo">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="C++ logo">
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">C++20 / Modern C++</div>
+            <span class="tech-card-badge">Languages</span>
+            <div class="tech-card-desc">ESKF sensor fusion, Ceres Solver, ProtoLink lab</div>
+          </div>
+        </div>
+
+        <!-- 3. C -->
+        <div class="tech-card" data-tech-cat="languages" data-keywords="c systems os kernel memory posix">
+          <div class="tech-card-logo">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" alt="C logo">
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">C Systems</div>
+            <span class="tech-card-badge">Languages</span>
+            <div class="tech-card-desc">Kernel process schedulers & contiguous paging</div>
+          </div>
+        </div>
+
+        <!-- 4. TypeScript -->
+        <div class="tech-card" data-tech-cat="languages" data-keywords="typescript ts web frontend backend react nextjs">
+          <div class="tech-card-logo">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript logo">
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">TypeScript</div>
+            <span class="tech-card-badge">Languages</span>
+            <div class="tech-card-desc">Strictly-typed Next.js 16 & Model Context Protocol</div>
+          </div>
+        </div>
+
+        <!-- 5. JavaScript -->
+        <div class="tech-card" data-tech-cat="languages" data-keywords="javascript js frontend web nodejs">
+          <div class="tech-card-logo">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript logo">
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">JavaScript (ES6+)</div>
+            <span class="tech-card-badge">Languages</span>
+            <div class="tech-card-desc">Interactive web runtime, DOM, WebSockets & canvas</div>
+          </div>
+        </div>
+
+        <!-- 6. SQL -->
+        <div class="tech-card" data-tech-cat="languages" data-keywords="sql database queries postgres sqlite acid">
+          <div class="tech-card-logo">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg" alt="SQL logo">
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">SQL (ANSI / PL)</div>
+            <span class="tech-card-badge">Languages</span>
+            <div class="tech-card-desc">Relational schema design, indexes & ledger queries</div>
+          </div>
+        </div>
+
+        <!-- 7. Bash -->
+        <div class="tech-card" data-tech-cat="languages" data-keywords="bash shell linux scripting terminal automation">
+          <div class="tech-card-logo">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" alt="Bash logo">
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">Bash / Shell</div>
+            <span class="tech-card-badge">Languages</span>
+            <div class="tech-card-desc">Linux systems automation, toolchains & build pipelines</div>
+          </div>
+        </div>
+
+        <!-- 8. PyTorch -->
+        <div class="tech-card" data-tech-cat="aiml" data-keywords="pytorch deep learning neural networks vision attention">
+          <div class="tech-card-logo">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" alt="PyTorch logo">
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">PyTorch</div>
+            <span class="tech-card-badge">AI / Vision</span>
+            <div class="tech-card-desc">ResU-Net, SAR-Optical attention, neural ZUPT</div>
+          </div>
+        </div>
+
+        <!-- 9. OpenCV -->
+        <div class="tech-card" data-tech-cat="aiml" data-keywords="opencv computer vision image processing camera lane tracking">
+          <div class="tech-card-logo">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original.svg" alt="OpenCV logo">
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">OpenCV</div>
+            <span class="tech-card-badge">AI / Vision</span>
+            <div class="tech-card-desc">Sliding-window lane curves & camera sensor feeds</div>
+          </div>
+        </div>
+
+        <!-- 10. TensorFlow -->
+        <div class="tech-card" data-tech-cat="aiml" data-keywords="tensorflow keras machine learning ai">
+          <div class="tech-card-logo">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow logo">
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">TensorFlow / Keras</div>
+            <span class="tech-card-badge">AI / Vision</span>
+            <div class="tech-card-desc">Deep neural classification, CNNs & model graphs</div>
+          </div>
+        </div>
+
+        <!-- 11. YOLOv8 -->
+        <div class="tech-card" data-tech-cat="aiml" data-keywords="yolov8 yolo object detection real-time vision perception">
+          <div class="tech-card-logo">
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--primary-orange)" stroke-width="2.2">
+              <circle cx="12" cy="12" r="9"></circle>
+              <line x1="12" y1="3" x2="12" y2="7"></line>
+              <line x1="12" y1="17" x2="12" y2="21"></line>
+              <line x1="3" y1="12" x2="7" y2="12"></line>
+              <line x1="17" y1="12" x2="21" y2="12"></line>
+            </svg>
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">YOLOv8 / Ultralytics</div>
+            <span class="tech-card-badge">AI / Vision</span>
+            <div class="tech-card-desc">Sub-3 ms obstacle detection on ARM Cortex-A</div>
+          </div>
+        </div>
+
+        <!-- 12. Scikit-Learn -->
+        <div class="tech-card" data-tech-cat="aiml" data-keywords="scikitlearn sklearn machine learning regression clustering">
+          <div class="tech-card-logo">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg" alt="Scikit-Learn logo">
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">Scikit-Learn</div>
+            <span class="tech-card-badge">AI / Vision</span>
+            <div class="tech-card-desc">Statistical ML models, feature engineering & metrics</div>
+          </div>
+        </div>
+
+        <!-- 13. CUDA -->
+        <div class="tech-card" data-tech-cat="aiml" data-keywords="cuda nvidia gpu acceleration tensors parallel">
+          <div class="tech-card-logo">
+            <svg viewBox="0 0 24 24" fill="#76B900">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15h-2v-6h2v6zm0-8h-2V7h2v2zm4 8h-2v-4h2v4zm0-6h-2V7h2v4z"/>
+            </svg>
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">CUDA / NVIDIA</div>
+            <span class="tech-card-badge">AI / Vision</span>
+            <div class="tech-card-desc">High-throughput tensor convolutions & backpropagation</div>
+          </div>
+        </div>
+
+        <!-- 14. LayoutLMv3 -->
+        <div class="tech-card" data-tech-cat="aiml" data-keywords="layoutlmv3 ocr document ai tables spatial vision">
+          <div class="tech-card-logo">
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--primary-orange)" stroke-width="2">
+              <rect x="4" y="3" width="16" height="18" rx="2"></rect>
+              <line x1="8" y1="8" x2="16" y2="8"></line>
+              <line x1="8" y1="12" x2="16" y2="12"></line>
+              <line x1="8" y1="16" x2="12" y2="16"></line>
+            </svg>
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">LayoutLMv3 Document AI</div>
+            <span class="tech-card-badge">AI / Vision</span>
+            <div class="tech-card-desc">99.1% precision coordinate-bounded ledger extraction</div>
+          </div>
+        </div>
+
+        <!-- 15. ROS2 Humble -->
+        <div class="tech-card" data-tech-cat="robotics" data-keywords="ros ros2 robotics robot autonomy dds navigation">
+          <div class="tech-card-logo">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ros/ros-original.svg" alt="ROS2 logo">
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">ROS2 Humble</div>
+            <span class="tech-card-badge">Robotics & AV</span>
+            <div class="tech-card-desc">DDS pub/sub node topology & telemetry bridges</div>
+          </div>
+        </div>
+
+        <!-- 16. Ceres Solver -->
+        <div class="tech-card" data-tech-cat="robotics" data-keywords="ceres solver optimization least squares odometry state estimation">
+          <div class="tech-card-logo">
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--primary-orange)" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M8 12a4 4 0 0 1 8 0"></path>
+              <circle cx="12" cy="12" r="2" fill="currentColor"></circle>
+            </svg>
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">Ceres Solver</div>
+            <span class="tech-card-badge">Robotics & AV</span>
+            <div class="tech-card-desc">Non-linear least-squares optimization for trajectory smoothing</div>
+          </div>
+        </div>
+
+        <!-- 17. Eigen3 -->
+        <div class="tech-card" data-tech-cat="robotics" data-keywords="eigen eigen3 linear algebra matrix cpp math eskf">
+          <div class="tech-card-logo">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2">
+              <path d="M4 4h4v16H4zM16 4h4v16h-4z"></path>
+              <line x1="8" y1="8" x2="16" y2="8"></line>
+              <line x1="8" y1="16" x2="16" y2="16"></line>
+            </svg>
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">Eigen3 Template Library</div>
+            <span class="tech-card-badge">Robotics & AV</span>
+            <div class="tech-card-desc">15-state covariance matrices & vector kinematics</div>
+          </div>
+        </div>
+
+        <!-- 18. RTK-GNSS & IMU Fusion -->
+        <div class="tech-card" data-tech-cat="robotics" data-keywords="rtk gnss gps imu sensor fusion navigation dead-reckoning">
+          <div class="tech-card-logo">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#fbbf24" stroke-width="2">
+              <path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">RTK-GNSS & 6-DoF IMU</div>
+            <span class="tech-card-badge">Robotics & AV</span>
+            <div class="tech-card-desc">ISRO SIH subterranean 0.42% drift dead-reckoning</div>
+          </div>
+        </div>
+
+        <!-- 19. ARM Cortex-A ECUs -->
+        <div class="tech-card" data-tech-cat="robotics" data-keywords="arm cortex embedded hardware ecu real-time low-power">
+          <div class="tech-card-logo">
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--primary-orange)" stroke-width="2">
+              <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+              <rect x="9" y="9" width="6" height="6"></rect>
+              <line x1="9" y1="1" x2="9" y2="4"></line>
+              <line x1="15" y1="1" x2="15" y2="4"></line>
+              <line x1="9" y1="20" x2="9" y2="23"></line>
+              <line x1="15" y1="20" x2="15" y2="23"></line>
+            </svg>
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">ARM Cortex-A ECUs</div>
+            <span class="tech-card-badge">Robotics & AV</span>
+            <div class="tech-card-desc">Embedded CPU latency profiling & dynamic quantizations</div>
+          </div>
+        </div>
+
+        <!-- 20. LangGraph & LangChain -->
+        <div class="tech-card" data-tech-cat="genai" data-keywords="langgraph langchain agents dag llm multi-agent rag">
+          <div class="tech-card-logo">
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--primary-orange)" stroke-width="2">
+              <circle cx="6" cy="6" r="3"></circle>
+              <circle cx="18" cy="6" r="3"></circle>
+              <circle cx="12" cy="18" r="3"></circle>
+              <line x1="8.5" y1="7.5" x2="10" y2="15.5"></line>
+              <line x1="15.5" y1="7.5" x2="14" y2="15.5"></line>
+            </svg>
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">LangGraph & Multi-Agent</div>
+            <span class="tech-card-badge">GenAI & LLMs</span>
+            <div class="tech-card-desc">Cyclical agent routing & cryptographic citation auditing</div>
+          </div>
+        </div>
+
+        <!-- 21. Google Gemini API -->
+        <div class="tech-card" data-tech-cat="genai" data-keywords="google gemini vision multimodal llm ai generative">
+          <div class="tech-card-logo">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/google/google-original.svg" alt="Google logo">
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">Google Gemini 1.5 Pro / Flash</div>
+            <span class="tech-card-badge">GenAI & LLMs</span>
+            <div class="tech-card-desc">Multimodal catalog extraction cutting listing time to <30s</div>
+          </div>
+        </div>
+
+        <!-- 22. Llama 3 -->
+        <div class="tech-card" data-tech-cat="genai" data-keywords="llama meta open-weights llm local ollama">
+          <div class="tech-card-logo">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#60a5fa" stroke-width="2">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"></path>
+              <polygon points="10 8 16 12 10 16 10 8"></polygon>
+            </svg>
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">Llama 3 / Open-Weights</div>
+            <span class="tech-card-badge">GenAI & LLMs</span>
+            <div class="tech-card-desc">Local reasoning for national building codes (Sandarbh)</div>
+          </div>
+        </div>
+
+        <!-- 23. Qdrant Vector DB -->
+        <div class="tech-card" data-tech-cat="genai" data-keywords="qdrant vector db embeddings rag similarity ann">
+          <div class="tech-card-logo">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#ec4899" stroke-width="2">
+              <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+              <polyline points="2 17 12 22 22 17"></polyline>
+              <polyline points="2 12 12 17 22 12"></polyline>
+            </svg>
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">Qdrant Vector DB</div>
+            <span class="tech-card-badge">GenAI & LLMs</span>
+            <div class="tech-card-desc">Dense vector indexing with HNSW semantic filtering</div>
+          </div>
+        </div>
+
+        <!-- 24. Whisper Large-v3 -->
+        <div class="tech-card" data-tech-cat="genai" data-keywords="whisper speech audio transcription ctranslate2 asr">
+          <div class="tech-card-logo">
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--primary-orange)" stroke-width="2">
+              <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
+              <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+              <line x1="12" y1="19" x2="12" y2="23"></line>
+              <line x1="8" y1="23" x2="16" y2="23"></line>
+            </svg>
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">Whisper Large-v3</div>
+            <span class="tech-card-badge">GenAI & LLMs</span>
+            <div class="tech-card-desc">Air-gapped 4.2x real-time transcription with CTranslate2</div>
+          </div>
+        </div>
+
+        <!-- 25. Next.js 16 -->
+        <div class="tech-card" data-tech-cat="web" data-keywords="nextjs react fullstack frontend ssr web">
+          <div class="tech-card-logo">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" alt="Next.js logo">
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">Next.js 16</div>
+            <span class="tech-card-badge">Web & Systems</span>
+            <div class="tech-card-desc">App router, Server Components, Turbopack & edge APIs</div>
+          </div>
+        </div>
+
+        <!-- 26. React 19 -->
+        <div class="tech-card" data-tech-cat="web" data-keywords="react frontend ui state javascript typescript">
+          <div class="tech-card-logo">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React logo">
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">React 19</div>
+            <span class="tech-card-badge">Web & Systems</span>
+            <div class="tech-card-desc">Modern reactive component state & high-frequency dashboards</div>
+          </div>
+        </div>
+
+        <!-- 27. FastAPI -->
+        <div class="tech-card" data-tech-cat="web" data-keywords="fastapi python rest api async backend pydantic">
+          <div class="tech-card-logo">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" alt="FastAPI logo">
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">FastAPI</div>
+            <span class="tech-card-badge">Web & Systems</span>
+            <div class="tech-card-desc">Asynchronous microservices with OpenAPI and Pydantic schemas</div>
+          </div>
+        </div>
+
+        <!-- 28. Node.js -->
+        <div class="tech-card" data-tech-cat="web" data-keywords="nodejs javascript runtime backend mcp servers">
+          <div class="tech-card-logo">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="Node.js logo">
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">Node.js</div>
+            <span class="tech-card-badge">Web & Systems</span>
+            <div class="tech-card-desc">Model Context Protocol tool servers & stream PDF compilation</div>
+          </div>
+        </div>
+
+        <!-- 29. WebAssembly (WASM) -->
+        <div class="tech-card" data-tech-cat="web" data-keywords="wasm webassembly edge client-side matting u2net">
+          <div class="tech-card-logo">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wasm/wasm-original.svg" alt="WebAssembly logo">
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">WebAssembly (WASM)</div>
+            <span class="tech-card-badge">Web & Systems</span>
+            <div class="tech-card-desc">Zero-cloud-fee in-browser background matting (<3.5s)</div>
+          </div>
+        </div>
+
+        <!-- 30. WebSockets -->
+        <div class="tech-card" data-tech-cat="web" data-keywords="websockets real-time streaming sockets telemetry bidirectional">
+          <div class="tech-card-logo">
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--primary-orange)" stroke-width="2">
+              <path d="M4 11a9 9 0 0 1 9 9"></path>
+              <path d="M4 4a16 16 0 0 1 16 16"></path>
+              <circle cx="5" cy="19" r="1" fill="currentColor"></circle>
+            </svg>
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">WebSockets</div>
+            <span class="tech-card-badge">Web & Systems</span>
+            <div class="tech-card-desc">Sub-millisecond OS process telemetry & Gantt updates</div>
+          </div>
+        </div>
+
+        <!-- 31. PostgreSQL -->
+        <div class="tech-card" data-tech-cat="devops" data-keywords="postgresql postgres sql acid database relational">
+          <div class="tech-card-logo">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="PostgreSQL logo">
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">PostgreSQL</div>
+            <span class="tech-card-badge">DevOps & DB</span>
+            <div class="tech-card-desc">ACID serializable transactions with row-level locks</div>
+          </div>
+        </div>
+
+        <!-- 32. Redis -->
+        <div class="tech-card" data-tech-cat="devops" data-keywords="redis cache in-memory locks upstash pubsub">
+          <div class="tech-card-logo">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" alt="Redis logo">
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">Redis</div>
+            <span class="tech-card-badge">DevOps & DB</span>
+            <div class="tech-card-desc">SET NX EX atomic locks & low-latency caching layers</div>
+          </div>
+        </div>
+
+        <!-- 33. Docker -->
+        <div class="tech-card" data-tech-cat="devops" data-keywords="docker containers devops deploy virtualization">
+          <div class="tech-card-logo">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker logo">
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">Docker</div>
+            <span class="tech-card-badge">DevOps & DB</span>
+            <div class="tech-card-desc">Multi-stage containerization & reproducible runtime images</div>
+          </div>
+        </div>
+
+        <!-- 34. Git & GitHub -->
+        <div class="tech-card" data-tech-cat="devops" data-keywords="git github vcs version control gitops">
+          <div class="tech-card-logo">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git logo">
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">Git & GitHub</div>
+            <span class="tech-card-badge">DevOps & DB</span>
+            <div class="tech-card-desc">Branching workflows, semantic releases & CI workflows</div>
+          </div>
+        </div>
+
+        <!-- 35. Linux / POSIX -->
+        <div class="tech-card" data-tech-cat="devops" data-keywords="linux posix kernel ubuntu sockets threads systems">
+          <div class="tech-card-logo">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" alt="Linux logo">
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">Linux / POSIX</div>
+            <span class="tech-card-badge">DevOps & DB</span>
+            <div class="tech-card-desc">POSIX sockets, pthreads, IPC & embedded OS environments</div>
+          </div>
+        </div>
+
+        <!-- 36. Nginx -->
+        <div class="tech-card" data-tech-cat="devops" data-keywords="nginx web server reverse proxy load balancer ssl">
+          <div class="tech-card-logo">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg" alt="Nginx logo">
+          </div>
+          <div class="tech-card-details">
+            <div class="tech-card-name">Nginx</div>
+            <span class="tech-card-badge">DevOps & DB</span>
+            <div class="tech-card-desc">Reverse proxy routing, SSL termination & rate limiting</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notice -->
+  <div class="toast-notice" id="toastNotice">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary-orange)" stroke-width="2.5">
+      <polyline points="20 6 9 17 4 12"></polyline>
+    </svg>
+    <span class="toast-text">Email address copied to clipboard!</span>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="main.js"></script>
+</body>
+
+</html>
