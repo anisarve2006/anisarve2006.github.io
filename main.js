@@ -139,7 +139,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <li>Integrated Kalman-filtered multi-camera sensor fusion to deliver deterministic obstacle velocity vectors and proactive collision alerts.</li>
         </ul>
       `,
-      image: 'assets/navigo.png',
+      image: 'assets/navigo.jpg',
       link: 'https://github.com/anisarve2006'
     },
     protolink: {
@@ -156,7 +156,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <li>Designed real-time terminal telemetry and visual throughput graphs monitoring congestion windows (cwnd) and throughput metrics under varying channel loads.</li>
         </ul>
       `,
-      image: 'assets/protolink.png',
+      image: 'assets/protolink.jpg',
       link: 'https://github.com/anisarve2006'
     },
     virtual_tryon: {
@@ -173,7 +173,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <li>Architected resilient backend state management using Upstash Redis atomic locks (<code>SET NX EX</code>) and WebSockets for rock-solid concurrency.</li>
         </ul>
       `,
-      image: 'assets/virtual_tryon.png',
+      image: 'assets/virtual_tryon.jpg',
       link: 'https://github.com/anisarve2006'
     },
     eskf_inertial: {
